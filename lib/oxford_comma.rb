@@ -6,5 +6,5 @@ def oxford_comma(array)
   elsif array.length == 3
   return "#{array[0]}, #{array[1]}, and #{array[2]}"
 end
-array.join
+array.join(", ")
 end
